@@ -1,0 +1,56 @@
+/*------------------Layout-----------------------------*/
+body {
+    background-image: url(../img/FondoPreterminado.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*menu inferior*/
+.menu-hover {
+    height: 100%;
+    min-width: 50px;
+}
+    .menu-hover :hover {
+        background-color: #979A9A;
+        color: #2E4053;
+        cursor: pointer;
+    }
+
+.iconos {
+    color: #B3B6B7;
+}
+
+/*Menu Lateral*/
+#subMenuLateral {
+    position: absolute;
+    bottom:0%;
+}
+
+/*explorador de archivos*/
+.btn-explorador {
+    color: #000000;
+    float: left;
+    margin-left: 5px;
+}
+
+    .btn-explorador :hover {
+        cursor: pointer;
+        background-color: #AED6F1;
+    }
+
+.menu-hover-explorador {
+    height: 100%;
+    min-width: 50px;
+}
+
+    .menu-hover-explorador :hover {
+        background-color: #AED6F1;
+        cursor: pointer;
+    }
+
+    .menu-hover-explorador div :hover {
+        background-color: #AED6F1;
+        cursor: pointer;
+    }
+
+/*----------------------Escritorio-------------------------------*/
